@@ -1,0 +1,20 @@
+git init  :Inicializa a Git
+git branch -M NombreDeLaRama :Se cambia entre ramas
+git branch  NombreDeLaRama :Crea ramas nuevas
+git add NombreArchivo.extension :Cambia de estado Untracked un archivo determinado y lo pasa a added
+git add . :Cambia de estado  de Untracked de todos los archivos presentes a added
+git config -n :Visualiza la configurazión
+git commit -m "Descripcion del commit" :Para hacer un commit
+git log :Hace seguimiento al commit, muestra todos los commit
+git status :Muestra el estado de los archivos
+git checkout :Para navegar entre los commits para atras
+git checkout :Para navegar entre los commits para adelante
+git log --oneline : Perite visualizar todos los commits
+git config user.name :Permite visulizar el usuario
+git config user.email :Permite visulizar el correo
+git checkout #delcommit: Permite ir a un commit especifico
+git remote -v : Permite revisar que el proyecto no esta vinculado antes
+git remote add origin https//github.com/nombredelrepo.git
+git push -u origin main :se comunican el git y el GitHub para mandar cambios
+
+
