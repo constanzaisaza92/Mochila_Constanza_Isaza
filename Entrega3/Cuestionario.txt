@@ -1,0 +1,22 @@
+Cuestionario:
+
+● ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?.
+
+R// Esto ocurre principalmente por dos motivos, la compativilidad del lenguaje del sistema operativo y la disponibilidad de un entorno de ejecución adecuado.Algunos lenguajes están diseñados para ser multiplataforma y pueden ejecutarse en diferentes sistemas operativos sin problemas, mientras que otros pueden estar más limitados en términos de compatibilidad.
+
+Compatibilidad del lenguaje con el sistema operativo: Los lenguajes de programación están diseñados con características específicas y construcciones sintácticas que pueden ser compatibles o no con un determinado sistema operativo. Algunos lenguajes están diseñados desde el principio para ser multiplataforma, lo que significa que pueden ejecutarse en diferentes sistemas operativos sin requerir modificaciones significativas. Estos lenguajes suelen utilizar una máquina virtual o un intérprete que proporciona una capa de abstracción entre el lenguaje y el sistema operativo subyacente.
+
+Disponibilidad de un entorno de ejecución adecuado: Además de la compatibilidad del lenguaje en sí, también es necesario contar con un entorno de ejecución adecuado en el sistema operativo objetivo. Esto puede incluir compiladores, intérpretes, bibliotecas y otras herramientas necesarias para ejecutar programas escritos en ese lenguaje en el sistema operativo en cuestión. Si no hay un entorno de ejecución disponible o si no es compatible con el lenguaje de programación, no se podrá utilizar ese lenguaje en ese sistema operativo específico.
+
+Además de estos dos factores principales, también pueden existir consideraciones adicionales, como las restricciones impuestas por el sistema operativo en términos de permisos, seguridad o características específicas que solo están disponibles en algunos sistemas operativos.
+
+
+● ¿Qué tipo de máquina virtual es virtualBox?.
+
+R// VirtualBox es un software de virtualización de código abierto que actúa como un hipervisor de tipo 2 o "hipervisor de host". Permite crear y ejecutar máquinas virtuales en un sistema operativo anfitrión, lo que permite la instalación y ejecución de diferentes sistemas operativos de manera aislada y segura.
+
+
+● Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+R// En general, si una máquina virtual se rompe, no afectará a las demás máquinas virtuales. Esto se debe a que las máquinas virtuales están diseñadas para funcionar de manera aislada y encapsulada, lo que significa que cada máquina virtual opera de forma independiente y los fallos se limitan a esa máquina virtual específica. Sin embargo, existen algunas situaciones en las que un fallo en una máquina virtual puede tener un impacto indirecto en otras, como problemas de recursos compartidos o errores en el entorno de virtualización.
+
